@@ -48,7 +48,7 @@ class VetControllerTest {    @Mock
         then(model).should().put(anyString(), any());
         assertThat("vets/VetList").isEqualToIgnoringCase(view);
     } 
-
+ 
     @Test
     void showResourcesVetList() {
         //when
